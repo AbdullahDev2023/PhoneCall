@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(process.env.PORT || 6556);
 const DATA_FILE = process.env.PHONECALL_DATA_FILE || path.join(__dirname, '..', 'data', 'store.json');
 const DEFAULT_DEVICE_PREFIX = 'PhoneCall device';
 
